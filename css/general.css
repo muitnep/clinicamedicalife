@@ -1,0 +1,34 @@
+:root {
+    --white-background-color: #fff;
+    --font-color: #0000008c;
+    --green-background-color: #00cad1;
+    --hover-color: #004b4c;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    font-family: 'Sources Sans Pro', sans-serif;
+}
+
+main {
+    color: var(--font-color);
+    margin-bottom: 3.75rem; /*60px*/
+}
+
+.container {
+    max-width: 64rem; /*1024px*/
+    margin: 0 auto;
+}
+
+.content-container {
+    max-width: 37.5rem;/*600px*/
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content-container h2,
+.content-container h3 {
+    margin: 0;
+}
